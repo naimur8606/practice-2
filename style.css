@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 12px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+
+}
+.nav-item{
+    list-style: none;
+    margin-right: 20px;
+}
+.banner{
+    background-size: cover;
+    background-image:  url("./asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.rad-text{
+    color: red;
+}
+.banner-discription{
+    color: white;
+}
+.rad-btn,.white-btn:hover{
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+.rad-btn:hover,.white-btn{
+    background-color: white;
+    color: red;
+    padding: 12px 20px;
+    border: none;
+}
+.service-section{
+    height: 100vh;
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    justify-content: space-between;
+}
+.services-row{
+    display: flex;
+}
+.service{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    border-radius: 5px;
+    margin: 0 2px 5px 0;
+}
+.service-img{
+    width: 70px;
+}
+.author-discription{
+    display: flex;
+    align-items: center;
+}
+.author-img{
+    height: 70px;
+    border-radius: 35px;
+}
+.author-title{
+    padding: 0 5px;
+}
+.appionment{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    background-color: rgba(228, 25, 25, 0.8);
+    align-items: center;
+    margin: -30px auto auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.blog-news{
+    width: 80%;
+    background-color: gray;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.blog-title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.blogs{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    text-align: left;
+}
+.blog-img{
+    height: 145px;
+    border-radius: 5px;
+}
